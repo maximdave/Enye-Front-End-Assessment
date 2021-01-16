@@ -1,0 +1,22 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.pagination__link {
+  margin: 5px;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+  background: #333;
+  color: #fafafa;
+}
+
+.pagination__link:hover {
+  background: #fafafa;
+  color: #333333;
+}
